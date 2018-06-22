@@ -2,7 +2,7 @@
 
 Setup instructions:
 
-1. Go to source/ folder
+1. Go to project source folder
 2. Run 'npm install'
 3. Run 'node server.js'
 

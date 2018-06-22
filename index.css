@@ -1,0 +1,66 @@
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+  }
+  
+  #columns {
+    list-style-type: none;
+  }
+  
+  .column {
+    width: 162px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    cursor: move;
+    margin: 2px;
+  }
+  .column header {
+    height: 20px;
+    width: 150px;
+    color: black;
+    background-color: #ccc;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+    border: 2px solid #666666;
+  }
+
+  .column a {
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: #5d7bce;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .column.dragElem {
+    opacity: 0.4;
+  }
+  .column.over {
+    border-top: 2px solid blue;
+  }
+
+  .icon-expand{
+      width: 20px;
+      height: 20px;
+  }
+
+  ul {
+      list-style: none
+  }
+  
+  .team-manager-name {
+      color: #0000ff
+  }
+
+  .info {
+      margin-left: 20px
+  }
